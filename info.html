@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="src/image/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/1e7060f51f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="src/css/bootstrap.css" />
+  <link rel="stylesheet" href="src/css/aos.css" />
+  <script src="src/js/aos.js"></script>
+  <link rel="stylesheet"
+    href="https://raw.githubusercontent.com/username11384/multimediaHTML/main/Multi%20Assessment/src/css/bootstrap.css" />
+  <link rel="stylesheet" href="src/css/dark-mode.css" />
+  <link rel="stylesheet"
+    href="https://raw.githubusercontent.com/username11384/multimediaHTML/main/Multi%20Assessment/src/css/dark-mode.css" />
+  <title>Multimedia Assessment - Immanuel Lam</title>
+</head>
+
+<style>
+  .jbmono {
+    font-family: "JetBrains Mono";
+  }
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container-fluid">
+    <a class="darktxt navbar-brand" href="index.html">
+      <img src="src/image/icon.jpg" width="30" height="30" class="d-inline-block align-top"
+        alt="Marin as Shizuku-tan" />
+      My Dress-Up Darling
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <form class="container-fluid justify-content-start">
+      <a href="index.html" style="text-decoration: none;">
+        <button class="btn btn-outline-primary" type="button"><i class="fa-solid fa-house"></i></button></a>
+    </form>
+    <div class="darktxt navbar-text d-flex form-check form-switch">
+      <input type="checkbox" class="form-check-input" id="darkSwitch" />
+      <label class="custom-control-label" for="darkSwitch">Dark</label>
+    </div>
+    <script src="src/js/dark-mode-switch.min.js"></script>
+    <script
+      src="https://raw.githubusercontent.com/username11384/multimediaHTML/main/Multi%20Assessment/src/js/dark-mode-switch.min.js"></script>
+  </div>
+  </div>
+</nav>
+
+<script>
+  AOS.init();
+</script>
+
+<body>
+  <header>
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="src/vid/info_cg.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="display-5 fw-bold lh-1 mb-3">More Information</h1>
+          <p class="lead mb-0">You can find out more about <b>My Dress-Up Darling</b> here.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="divider"></div>
+  <section class="showcase">
+    <div class="container-fluid p-0">
+      <div data-aos="zoom-out-up" data-aos-delay="300" class="row g-0">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img"
+          style="background-image: url('src/image/characters.png')"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Characters</h2>
+          <p class="lead mb-0">There are 2 main characters in this story, both of which are Marin Kitagawa and Gojo
+            Wakana.</p><br />
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="characters.html">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Characters <i
+                  class="fa-solid fa-arrow-right"></i></button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div data-aos="zoom-out-up" data-aos-delay="300" class="row g-0">
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('src/image/plot.jpg')"></div>
+        <div class="col-lg-6 my-auto showcase-text">
+          <h2>Plot</h2>
+          <p class="lead mb-0">Check out the plot of <b>My Dress-Up Darling</b> here! Warning, there are
+            spoilers</p><br />
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="plot.html">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Plot <i
+                  class="fa-solid fa-arrow-right"></i></button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div data-aos="zoom-out-up" data-aos-delay="300" class="row g-0">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('src/image/more.jpg')">
+        </div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Other Info</h2>
+          <p class="lead mb-0">If you want to find out more about the series, such as the director, animators and more. You can also hear my review here!
+            </p><br />
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="extras.html">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Review + Other Info <i
+                  class="fa-solid fa-arrow-right"></i></button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="src/js/bootstrap.js"></script>
+  <script
+    src="https://raw.githubusercontent.com/username11384/multimediaHTML/main/Multi%20Assessment/src/js/bootstrap.js"></script>
+</body>
+  <footer class="text-center text-lg-start bg-light text-muted">
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <div class="me-5 d-none d-lg-block">
+      <span>Check me out on GitHub:</span>
+    </div>
+    <div>
+      <a href="https://github.com/username11384" target="_blank" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </section>
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4 jbmono">
+            <i class="fa-solid fa-code"></i> Multimedia Assessment
+          </h6>
+          <p>
+            This website was written in HTML with Bootstrap 5.0 and animate-on-scroll by Immanuel Lam. 
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4 jbmono"><i class="fa-solid fa-link"></i> Useful links</h6>
+          <p>
+            <a href="index.html" class="text-reset">Home</a><br />
+          </p>
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4 jbmono"><i class="fa-solid fa-at"></i> Contact</h6>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            immanuel.lam@education.nsw.gov.au
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="text-center p-4 jbmono" style="background-color: rgba(0, 0, 0, 0.05)">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold jbmono" target="_blank" href="https://github.com/username11384">Immanuel Lam</a>
+    <a> | </a>
+    <a href="https://github.com/username11384/multimediaHTML" target="_blank" class="text-reset jbmono">Edit this page
+      on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+
+  </div>
+</footer>
+</html>
